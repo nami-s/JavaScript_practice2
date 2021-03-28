@@ -14,7 +14,9 @@
         background-color: red;
         cursor: pointer;
         transition: 0.8s;
-        margin: 0 10px 0 10px;
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 100px;
       }
       .circle {
         background-color: blue;
@@ -27,13 +29,16 @@
     <script>
       'use script';
 
-      const div = document.createElement('div');
-      div.classList.add('box');
-      div.addEventListener('click', ()=>{
-        div.classList.toggle('circle');
-      });
-      //  divをbodyの子要素として追加してる
-      document.body.appendChild(div);
+      for(let i = 0; i < 100; i++){
+        const div = document.createElement('div');
+        div.classList.add('box');
+        div.textContent = i;
+        div.addEventListener('click', ()=>{
+          div.classList.toggle('circle');
+        });
+        //  divをbodyの子要素として追加してる
+        document.body.appendChild(div);
+      }
     </script>
   </body>
 </html>
