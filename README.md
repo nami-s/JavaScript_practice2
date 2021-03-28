@@ -1,1 +1,2 @@
-## JavaScript_practice2◎
+## JavaScript_practice
+JavaScriptの勉強用
