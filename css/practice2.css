@@ -14,8 +14,18 @@ body {
   font-weight: bold;
   font-size: 50px;
   cursor: pointer;
+  /* 影をつけるスタイル: x軸 y軸 ぼかし 色; */
+  box-shadow: 0px 10px 0 maroon;
+  /* Chrome以外はペンダープレフィックスが必要 */
+  user-select: none;
 }
 
-#btn:hover{
+#btn:hover {
   opacity: 0.7;
+}
+
+/* active擬似クラスは要素がクリックされた時のスタイル */
+#btn:active {
+  box-shadow: 0 5px 0 maroon;
+  margin-top: 35px;
 }
