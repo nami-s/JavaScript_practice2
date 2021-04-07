@@ -19,4 +19,5 @@
   columns[2] = createColumn(2);
   columns[3] = createColumn(3);
   columns[4] = createColumn(4);
+  columns[2][2] = 'FREE';
 }
