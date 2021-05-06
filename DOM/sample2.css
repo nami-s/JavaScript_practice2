@@ -2,3 +2,7 @@
   color: red;
   background-color: aqua;
 }
+
+.my-border{
+  border: 4px solid orange;
+}
