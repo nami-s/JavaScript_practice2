@@ -1,9 +1,7 @@
 'use strict'
 
 {
-  document.querySelector('button').addEventListener('click', () =>{
-    const targetNode = document.getElementById('target');
+  document.querySelector('button').addEventListener('click', () => {
 
-    targetNode.textContent = targetNode.dataset.read;    // カスタムデータ属性呼び出し方
   });
 }
