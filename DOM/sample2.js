@@ -1,8 +1,7 @@
 'use strict';
 
 {
-  function update(){
+  document.querySelector('button').addEventListener('click', () =>{
     document.getElementById('target').textContent = 'Change';
-  }
-
+  });
 }
