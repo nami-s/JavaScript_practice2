@@ -2,6 +2,9 @@
 
 {
   document.querySelector('button').addEventListener('click', () =>{    // クリックイベント
-    document.getElementById('target').textContent = 'Change';
+    const targetNode = document.getElementById('target');
+
+    targetNode.textContent = 'Change';
+    targetNode.title = 'This is title';
   });
 }
