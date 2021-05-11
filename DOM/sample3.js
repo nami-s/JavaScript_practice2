@@ -13,6 +13,7 @@
     ul.insertBefore(copy, item2)    // insertBefore()　要素を挿入するメソッド（第1引数に挿入する要素、第2引数に挿入する場所の次の要素を指定）
 
     const item1 = document.querySelectorAll('li')[1];
-    item1.remove();    // 要素を削除するメソッド
+    // item1.remove();    // 要素を削除するメソッド
+    document.querySelector('ul').removeChild(item1);    // 要素を削除する別のメソッド
   });
 }
