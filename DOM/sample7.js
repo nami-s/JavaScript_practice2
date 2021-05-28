@@ -6,4 +6,8 @@
   text.addEventListener('focus', () =>{
     console.log('focus');
   });
+
+  text.addEventListener('blur', () =>{
+    console.log('blur');
+  });
 }
