@@ -14,4 +14,8 @@
   text.addEventListener('input', () =>{    // 文字が入力されるたびに発生するイベント
     console.log('input');
   });
+
+  text.addEventListener('change', () =>{    // 文字入力後フォーカスを外した時のイベント
+    console.log('change');
+  });
 }
